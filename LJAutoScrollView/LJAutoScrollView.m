@@ -42,7 +42,7 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
         self.collectionView.showsHorizontalScrollIndicator = NO;
         [self addSubview:self.collectionView];
         
-        self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, frame.size.height - 20, frame.size.width, 20)];
+        self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, frame.size.height - 30, frame.size.width, 20)];
         self.pageControl.pageIndicatorTintColor = [UIColor whiteColor];
         self.pageControl.currentPageIndicatorTintColor = [UIColor grayColor];
         self.pageControl.hidesForSinglePage = YES;
